@@ -1,0 +1,90 @@
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: #0f0f1a;
+    color: #e0e0e0;
+    font-family: 'Inter', Arial, sans-serif;
+}
+header {
+    background: linear-gradient(135deg, #1a1a2e, #2d1b3d);
+    padding: 25px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+header h1 { margin: 0 0 10px; color: #ce93d8; }
+nav a {
+    color: #e0e0e0;
+    margin: 0 8px;
+    text-decoration: none;
+}
+nav a:hover { color: #ce93d8; }
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+.btn {
+    display: inline-block;
+    background: #ce93d8;
+    color: #1a1a2e;
+    padding: 9px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn:hover { opacity: 0.9; }
+.btn-danger { background: #f44336; color: white; }
+.table-box {
+    overflow-x: auto;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 8px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 13px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    text-align: left;
+}
+th { color: #ce93d8; background: rgba(255,255,255,0.03); }
+form {
+    background: rgba(255,255,255,0.03);
+    padding: 20px;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 8px;
+}
+label { display: block; margin-top: 12px; margin-bottom: 6px; }
+input {
+    width: 100%;
+    padding: 11px;
+    color: #e0e0e0;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+}
+.actions a { margin-right: 6px; }
+.alert {
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+.success { background: #4caf50; color: white; }
+.error { background: #f44336; color: white; }
+.pagination { margin-top: 20px; text-align: center; }
+.pagination a {
+    color: #e0e0e0;
+    padding: 8px 12px;
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.08);
+    margin: 2px;
+    border-radius: 5px;
+}
+.pagination .active {
+    background: #ce93d8;
+    color: #1a1a2e;
+}
+.empty { text-align: center; padding: 20px; color: #aaa; }
